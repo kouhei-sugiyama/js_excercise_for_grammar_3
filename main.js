@@ -29,8 +29,8 @@ while (num < 100) {
 //     - 正解が出たらWhileループを抜ける
 
 
-let question = "パンはパンでも食べられないパンは？";
-let answer = "フライパン";
+const question = "パンはパンでも食べられないパンは？";
+const answer = "フライパン";
 let input;
 while (answer !== input) {
   input = prompt(question);
